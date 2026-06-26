@@ -16,7 +16,7 @@ Objective
 System Architecture
 
 * **Sensors:** Measure physiological parameters (e.g., heart rate, temperature)
-* **Microcontroller (ESP32/Arduino):** Processes sensor data
+* **Microcontroller :** Processes sensor data
 * **IoT Platform:** Sends and displays data remotely
 * **User Interface:** Displays health status for monitoring
 
@@ -30,12 +30,13 @@ Working Principle
 
 Components Used
 
-* ESP32 / Arduino
+* NodeMCU Microcontroller
 * Heart Rate Sensor
 * Temperature Sensor
+* ECG Sensor (AD8232 module)
 * Wi-Fi Module (built-in ESP32)
 * Power Supply
-* IoT Platform (e.g., ThingSpeak / Blynk)
+* IoT Platform (ThingSpeak)
 
 Features
 
@@ -57,8 +58,6 @@ Project Structure
 IoT-Patient-Monitoring/
 │── code/
 │   └── main.ino
-│── docs/
-│   └── project_report.pdf
 │── images/
 │   └── setup.jpg
 │── README.md
@@ -66,7 +65,7 @@ IoT-Patient-Monitoring/
 
 How to Run
 
-1. Connect sensors to ESP32/Arduino
+1. Connect sensors to NodeMCU
 2. Upload code using Arduino IDE
 3. Connect device to Wi-Fi
 4. Open IoT platform dashboard
