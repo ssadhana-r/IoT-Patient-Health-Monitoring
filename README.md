@@ -67,8 +67,15 @@ How to Run
 1. Connect sensors to NodeMCU
 2. Upload code using Arduino IDE
 3. Connect device to Wi-Fi
-4. Open IoT platform dashboard
+4. Open IoT platform ThingSpeak dashboard
 5. Monitor real-time patient data
+
+Results and Output (results folder)
+result1 - The serial monitor output from the Arduino IDE, displaying a continuous stream of the patient's ECG value, Heart Rate (BPM). and Temperature readings.
+result2 - ThingSpeak line graph charting a patient's temperature data over time.
+result3 - Real-time data tile from ThingSpeak, displaying a single temperature reading
+result4 - MATLAB plot showing the results of a Linear Regression analysis applied to temperature.
+result5 - MATLAB plot demonstrating the clustering of heart rate values using the k-means algorithm.
 
 
 Future Improvements
