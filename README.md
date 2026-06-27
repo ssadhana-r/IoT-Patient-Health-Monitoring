@@ -56,10 +56,9 @@ Project Structure
 
 ```
 IoT-Patient-Monitoring/
-│── code/
+│── result/
 │   └── main.ino
-│── images/
-│   └── setup.jpg
+│   └── 
 │── README.md
 ```
 
