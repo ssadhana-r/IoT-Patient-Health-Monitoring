@@ -71,7 +71,7 @@ How to Run
 5. Monitor real-time patient data
 
 Results and Output (results folder)
-* result1 - The serial monitor output from the Arduino IDE, displaying a continuous stream of the patient's ECG value, Heart Rate (BPM).
+* result1 - The serial monitor output from the Arduino IDE, displaying a continuous stream of the patient's ECG value, Heart Rate (BPM) and Temperature readings.
 * result2 - ThingSpeak line graph charting a patient's temperature data over time.
 * result3 - Real-time data tile from ThingSpeak, displaying a single temperature reading
 * result4 - MATLAB plot showing the results of a Linear Regression analysis applied to temperature.
