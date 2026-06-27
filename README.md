@@ -30,7 +30,7 @@ Working Principle
 
 Components Used
 
-* NodeMCU Microcontroller
+* ESP8266 Microcontroller
 * Heart Rate Sensor
 * Temperature Sensor
 * ECG Sensor (AD8232 module)
@@ -64,7 +64,7 @@ IoT-Patient-Monitoring/
 
 How to Run
 
-1. Connect sensors to NodeMCU
+1. Connect sensors to ESP8266
 2. Upload code using Arduino IDE
 3. Connect device to Wi-Fi
 4. Open IoT platform ThingSpeak dashboard
